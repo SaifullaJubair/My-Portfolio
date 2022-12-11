@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaExternalLinkAlt } from 'react-icons/fa';
 import './Banner.css'
 const Banner = () => {
    return (
@@ -20,6 +21,8 @@ const Banner = () => {
                      {/* I am a MERN Stack developer who learned and was certified by Programming Hero. I have done many full-stack projects with React and Node js. */}
 
                   </p>
+                  <a href='https://drive.google.com/file/d/1OQWy-90Ko-45uwwDkKniPBKkhfMrUyA8/view' target='_blank' className="btn btn-outline mb-6">Get Resume <span className='ml-2'><FaExternalLinkAlt></FaExternalLinkAlt></span></a>
+
                   <hr className="mb-5 border-gray-300" />
                   <div className="flex items-center space-x-4">
                      <a
