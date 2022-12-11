@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaExternalLinkAlt } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 const Projects = () => {
    return (
@@ -20,7 +21,7 @@ const Projects = () => {
                         target='_blank'
                         className="btn btn-sm btn-primary  bg-gradient-to-r from-primary to-secondary"> Live Site
                         <span className='ml-2'><FaExternalLinkAlt></FaExternalLinkAlt></span></a>
-                     <button className='btn btn-sm btn-primary'>Details</button>
+                     <button className='btn btn-sm btn-primary'><Link to='/projects/mobosell'>Details</Link></button>
                   </div>
                </div>
             </div>
@@ -34,7 +35,7 @@ const Projects = () => {
                   <p>MongoDB, Express, React, Firebase, JWT, Tailwind</p>
                   <div className="card-actions justify-end">
                      <a href='https://kitchen-a11.web.app/' target='_blank' className="btn btn-sm btn-primary  bg-gradient-to-r from-primary to-secondary"> Live Site <span className='ml-2'><FaExternalLinkAlt></FaExternalLinkAlt></span></a>
-                     <button className='btn btn-sm btn-primary'>Details</button>
+                     <button className='btn btn-sm btn-primary'><Link to='/projects/thekitchen'>Details</Link></button>
                   </div>
                </div>
             </div>
@@ -48,7 +49,7 @@ const Projects = () => {
                   <p>React, Express, Firebase, Bootstrap </p>
                   <div className="card-actions justify-end">
                      <a target='_blank' href='https://edmy-client-a10.web.app/' className="btn btn-sm btn-primary  bg-gradient-to-r from-primary to-secondary"> Live Site <span className='ml-2'><FaExternalLinkAlt></FaExternalLinkAlt></span></a>
-                     <button className='btn btn-sm btn-primary'>Details</button>
+                     <button className='btn btn-sm btn-primary'><Link to='/projects/edmy'>Details</Link></button>
                   </div>
                </div>
             </div>
