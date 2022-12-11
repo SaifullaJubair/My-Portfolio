@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaFacebook, FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const Contact = () => {
    return (
@@ -25,8 +26,19 @@ const Contact = () => {
                         <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
                         <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
                      </svg>
-                     <span>saifulla Jubair</span>
+                     <span>saifullajubair6@gmail.com</span>
                   </p>
+                  <div className="flex gap-3 text-3xl md:place-self-center md:justify-self-end">
+                     <a rel="noopener noreferrer" href="https://www.facebook.com/saifullajubair.saiful" title="Facebook" className="flex items-center p-1">
+                        <FaFacebook></FaFacebook>
+                     </a>
+                     <a rel="noopener noreferrer" href="https://github.com/SaifullaJubair" title="GitHum" className="flex items-center p-1">
+                        <FaGithub className=''></FaGithub>
+                     </a>
+                     <a rel="noopener noreferrer" href="https://www.linkedin.com/in/saifulla-jubair/" title="LinkedIn" className="flex items-center p-1">
+                        <FaLinkedin></FaLinkedin>
+                     </a>
+                  </div>
                </div>
             </div>
             <form novalidate="" className="flex flex-col py-6 space-y-6 md:py-0 md:px-6 ng-untouched ng-pristine ng-valid">
