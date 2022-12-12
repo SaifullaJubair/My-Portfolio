@@ -4,7 +4,6 @@ import Banner from '../Banner/Banner';
 import Contact from '../Contact/Contact';
 import Footer from '../Footer/Footer';
 import Projects from '../Projects/Projects';
-import Skills from '../Skills/Skills';
 
 const Home = () => {
    return (

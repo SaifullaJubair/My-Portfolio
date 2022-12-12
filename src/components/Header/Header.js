@@ -28,7 +28,7 @@ const Header = () => {
                </ul>
             </div>
             <div className="navbar-end">
-               <Link className="btn">Contact</Link>
+               <Link to='/contact' className="btn">Hire ME</Link>
             </div>
          </div>
       </section>

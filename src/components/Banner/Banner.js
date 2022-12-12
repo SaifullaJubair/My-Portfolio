@@ -17,7 +17,8 @@ const Banner = () => {
                   <h2 className='text-5xl '>Hi, I'm</h2>
                   <h1 className='text-7xl '>Saifulla Jubair</h1>
                   <p className="my-6  text-2xl">
-                     I'm Front-end Developer.Daily learner
+                     I'm MERN Stack Developer
+                     {/* I'm Front-end Developer.Daily learner */}
                      {/* I am a MERN Stack developer who learned and was certified by Programming Hero. I have done many full-stack projects with React and Node js. */}
 
                   </p>

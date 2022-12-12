@@ -45,7 +45,7 @@ const Projects = () => {
                   <h2 className="card-title text-white text-2xl">
                      Edmy
                   </h2>
-                  <p>This is course selling website . User can buy course here .This is a demo website. This website has firebase authentication.</p>
+                  <p>This is a course-selling website. Users can buy courses here. This is a demo website. This website has firebase authentication.</p>
                   <p>React, Express, Firebase, Bootstrap </p>
                   <div className="card-actions justify-end">
                      <a target='_blank' href='https://edmy-client-a10.web.app/' className="btn btn-sm btn-primary  bg-gradient-to-r from-primary to-secondary"> Live Site <span className='ml-2'><FaExternalLinkAlt></FaExternalLinkAlt></span></a>
