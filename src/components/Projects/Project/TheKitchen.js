@@ -22,6 +22,17 @@ const TheKitchen = () => {
             </ul>
             <p>Technologies: Tailwind CSS, React, React-Router-DOM, Firebase, JWT, MongoDB, Express, Node.daisyUI</p>
          </div>
+         <div className="btn-group m-6">
+
+            <a href="https://kitchen-a11.web.app/" className="btn hover:bg-gradient-to-r from-primary to-secondary">Live Site</a>
+
+
+            <a href="https://github.com/SaifullaJubair/The-Kitchen" className="btn hover:bg-gradient-to-r from-primary to-secondary">GitHub Client</a>
+
+
+            <a href="https://github.com/SaifullaJubair/The-Kitchen-Server" className="btn hover:bg-gradient-to-r from-primary to-secondary"> GutHub Server</a>
+
+         </div>
       </div >
    );
 };

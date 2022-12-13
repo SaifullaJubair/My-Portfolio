@@ -25,6 +25,15 @@ const Edmy = () => {
 
             <p>Technologies: BootStrap, React, React-Router-DOM, Firebase, React-To-PDF, Express, Node.</p>
          </div>
+
+         <div className="btn-group m-6">
+            <a href="https://edmy-client-a10.web.app/" className="btn hover:bg-gradient-to-r from-primary to-secondary">Live Site</a>
+
+            <a href="https://github.com/SaifullaJubair/Edmy-Learning-platform" className="btn hover:bg-gradient-to-r from-primary to-secondary">GitHub Client</a>
+
+            <a href="https://github.com/SaifullaJubair/Edmy-server" className="btn hover:bg-gradient-to-r from-primary to-secondary"> GutHub Server</a>
+
+         </div>
       </div >
    );
 };

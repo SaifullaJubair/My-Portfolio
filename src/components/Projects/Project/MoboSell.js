@@ -22,7 +22,18 @@ const MoboSell = () => {
             </ul>
             <p>Technologies: Tailwind CSS, React, React-Router-DOM, Firebase, JWT, MongoDB, Express, Node. Stripe, daisyUI</p>
          </div>
-      </div >
+         <div className="btn-group m-6">
+
+            <a href="https://mobosell-a12.web.app/" className="btn hover:bg-gradient-to-r from-primary to-secondary">Live Site</a>
+
+
+            <a href="https://github.com/SaifullaJubair/MogoSell" className="btn hover:bg-gradient-to-r from-primary to-secondary">GitHub Client</a>
+
+
+            <a href="https://github.com/SaifullaJubair/MoboSell-Server" className="btn hover:bg-gradient-to-r from-primary to-secondary"> GutHub Server</a>
+
+         </div>
+      </div>
    );
 };
 
