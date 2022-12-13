@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Projects = () => {
    return (
-      <div>
+      <div id='projects'>
          <h1 className='text-center my-12 text-4xl font-semibold text-white'>Projects</h1>
          <div className='grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mb-10'>
 

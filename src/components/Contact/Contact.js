@@ -1,7 +1,25 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import { FaFacebook, FaGithub, FaLinkedin } from 'react-icons/fa';
+import emailjs from '@emailjs/browser';
+import { toast } from 'react-hot-toast';
 
 const Contact = () => {
+   const form = useRef();
+
+   const sendEmail = (e) => {
+      e.preventDefault();
+
+      emailjs.sendForm('service_3h4hqit', 'template_vl7prxj', form.current, 'F5eN-EoZxqJ61DDG_')
+         .then((result) => {
+            console.log(result.text);
+         },
+            (error) => {
+               console.log(error.text);
+            });
+      form.target.reset()
+      toast.success('Your message sent successfully')
+   };
+
    return (
       <section className="py-6 dark:bg-gray-800 dark:text-gray-50 my-6">
          <div className="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x">
@@ -41,20 +59,24 @@ const Contact = () => {
                   </div>
                </div>
             </div>
-            <form novalidate="" className="flex flex-col py-6 space-y-6 md:py-0 md:px-6 ng-untouched ng-pristine ng-valid">
+            <form ref={form} onSubmit={sendEmail} className="flex flex-col py-6 space-y-6 md:py-0 md:px-6 ng-untouched ng-pristine ng-valid">
                <label className="block">
                   <span className="mb-1">Full name</span>
-                  <input type="text" className="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:ring-violet-400 dark:bg-gray-800 border border-white py-2 mt-2" />
+                  <input type="text" name='name' className="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:ring-violet-400 dark:bg-gray-800 border border-white py-2 mt-2" required />
                </label>
                <label className="block">
                   <span className="mb-1">Email address</span>
-                  <input type="email" className="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 py-2 focus:ring-violet-400 dark:bg-gray-800 border border-white mt-2" />
+                  <input type="email" name='email' className="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 py-2 focus:ring-violet-400 dark:bg-gray-800 border border-white mt-2" required />
+               </label>
+               <label className="block">
+                  <span className="mb-1">Subject</span>
+                  <input type="text" name='subject' className="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 py-2 focus:ring-violet-400 dark:bg-gray-800 border border-white mt-2" required />
                </label>
                <label className="block">
                   <span className="mb-2">Message</span>
-                  <textarea rows="3" className="block w-full rounded-md focus:ring focus:ring-opacity-75 focus:ring-violet-400 dark:bg-gray-800 border-white border my-2"></textarea>
+                  <textarea rows="3" name='message' className="block w-full rounded-md focus:ring focus:ring-opacity-75 focus:ring-violet-400 dark:bg-gray-800 border-white border my-2" required></textarea>
                </label>
-               <button className='btn bg-gradient-to-r from-primary to-secondary hover:text-orange-100 '>Submit</button>
+               <button className='btn bg-gradient-to-r from-primary to-secondary hover:text-orange-100'>Submit</button>
             </form>
          </div>
       </section>

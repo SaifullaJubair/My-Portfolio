@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
    return (
-      <section>
+      <section className=' sticky top-0 z-50'>
          <div className="navbar bg-base-100">
             <div className="navbar-start">
                <div className="dropdown">
@@ -12,8 +12,8 @@ const Header = () => {
                   </label>
                   <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
                      <li><Link to="/">Home</Link></li>
-                     <li><Link to="/projects">Projects</Link></li>
-                     <li><Link to="/about">About</Link></li>
+                     <li><a href="#projects">Projects</a></li>
+                     <li><a href="#about">About</a></li>
                      <li><Link to="/blog">Blog</Link></li>
                   </ul>
                </div>
@@ -22,13 +22,13 @@ const Header = () => {
             <div className="navbar-center hidden lg:flex">
                <ul className="menu menu-horizontal px-1">
                   <li><Link to='/'>Home</Link></li>
-                  <li><Link to='/projects'>Projects</Link></li>
-                  <li><Link to='/about'>About</Link></li>
+                  <li><a href='#projects'>Projects</a></li>
+                  <li><a href='#about'>About</a></li>
                   <li><Link to='/blog'>Blog</Link></li>
                </ul>
             </div>
             <div className="navbar-end">
-               <Link to='/contact' className="btn">Hire ME</Link>
+               <Link to='#contact' className="btn">Hire ME</Link>
             </div>
          </div>
       </section>
