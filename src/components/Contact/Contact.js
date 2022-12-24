@@ -16,7 +16,7 @@ const Contact = () => {
             (error) => {
                console.log(error.text);
             });
-      form.target.reset()
+      e.target.reset()
       toast.success('Your message sent successfully')
    };
 
@@ -47,14 +47,14 @@ const Contact = () => {
                      <span>saifullajubair6@gmail.com</span>
                   </p>
                   <div className="flex gap-3 text-3xl md:place-self-center md:justify-self-end">
-                     <a rel="noopener noreferrer" href="https://www.facebook.com/saifullajubair.saiful" title="Facebook" className="flex items-center p-1">
-                        <FaFacebook></FaFacebook>
+                     <a rel="noopener noreferrer" href="https://www.linkedin.com/in/saifulla-jubair/" title="LinkedIn" className="flex items-center">
+                        <FaLinkedin></FaLinkedin>
                      </a>
                      <a rel="noopener noreferrer" href="https://github.com/SaifullaJubair" title="GitHum" className="flex items-center p-1">
                         <FaGithub className=''></FaGithub>
                      </a>
-                     <a rel="noopener noreferrer" href="https://www.linkedin.com/in/saifulla-jubair/" title="LinkedIn" className="flex items-center p-1">
-                        <FaLinkedin></FaLinkedin>
+                     <a rel="noopener noreferrer" href="https://www.facebook.com/saifullajubair.saiful" title="Facebook" className="flex items-center p-1">
+                        <FaFacebook></FaFacebook>
                      </a>
                   </div>
                </div>
@@ -62,19 +62,19 @@ const Contact = () => {
             <form ref={form} onSubmit={sendEmail} className="flex flex-col py-6 space-y-6 md:py-0 md:px-6 ng-untouched ng-pristine ng-valid">
                <label className="block">
                   <span className="mb-1">Full name</span>
-                  <input type="text" name='name' className="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:ring-violet-400 dark:bg-gray-800 border border-white py-2 mt-2" required />
+                  <input type="text" name='name' className="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:ring-violet-400 dark:bg-gray-800 border border-white px-3 py-2 mt-2" required />
                </label>
                <label className="block">
                   <span className="mb-1">Email address</span>
-                  <input type="email" name='email' className="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 py-2 focus:ring-violet-400 dark:bg-gray-800 border border-white mt-2" required />
+                  <input type="email" name='email' className="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 px-3 py-2 focus:ring-violet-400 dark:bg-gray-800 border border-white mt-2" required />
                </label>
                <label className="block">
                   <span className="mb-1">Subject</span>
-                  <input type="text" name='subject' className="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 py-2 focus:ring-violet-400 dark:bg-gray-800 border border-white mt-2" required />
+                  <input type="text" name='subject' className="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 px-3 py-2 focus:ring-violet-400 dark:bg-gray-800 border border-white mt-2" required />
                </label>
                <label className="block">
                   <span className="mb-2">Message</span>
-                  <textarea rows="3" name='message' className="block w-full rounded-md focus:ring focus:ring-opacity-75 focus:ring-violet-400 dark:bg-gray-800 border-white border my-2" required></textarea>
+                  <textarea rows="3" name='message' className="block w-full rounded-md focus:ring focus:ring-opacity-75 focus:ring-violet-400 dark:bg-gray-800 border-white border my-2 p-3" required></textarea>
                </label>
                <button className='btn bg-gradient-to-r from-primary to-secondary hover:text-orange-100'>Submit</button>
             </form>

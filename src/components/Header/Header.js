@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
    return (
-      <section className=' sticky top-0 z-50'>
+      <section className=' sticky top-0 z-50' data-theme="business">
          <div className="navbar bg-base-100">
             <div className="navbar-start">
                <div className="dropdown">

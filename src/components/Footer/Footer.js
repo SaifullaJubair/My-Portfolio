@@ -5,7 +5,7 @@ import './Footer.css'
 
 const Footer = () => {
    return (
-      <div className='footers mt-6'>
+      <div className='footers mt-6' data-theme="business">
 
          <footer className="footer items-center p-4 text-neutral-content">
             <div className="items-center grid-flow-col ">
