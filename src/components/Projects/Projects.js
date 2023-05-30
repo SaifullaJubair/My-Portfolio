@@ -25,7 +25,48 @@ const Projects = () => {
                   </div>
                </div>
             </div>
+
             <div className="card  bg-base-100 shadow-xl">
+               <figure><img src="https://i.ibb.co/7RNtCTh/farebd.jpg" alt="FareBd Pic" /></figure>
+               <div className="card-body mx-auto" >
+                  <h2 className="card-title text-white text-2xl">
+                     FareBD <span className='text-lg'> (House Rental & Selling App)</span>
+                  </h2>
+                  <p>Group Project | Role: Leader & Github manager. <br />
+                     House sale and rental website Where the house owner can sell the house and pay the rent, Tenant can buy house can take rent. Functionality can be used in a variety of ways.
+                     <p className=''><span className=''>Technology Used:</span>  Next.js, Express.js, Firebase, MongoDB, Flowbite, Tailwind
+                     </p>
+                  </p>
+                  <div className="card-actions justify-end">
+                     <a href='https://farebd-9.web.app/'
+                        target='_blank'
+                        className="btn btn-sm btn-primary  bg-gradient-to-r from-primary to-secondary"> Live Site
+                        <span className='ml-2'><FaExternalLinkAlt></FaExternalLinkAlt></span></a>
+                     <button className='btn btn-sm btn-primary'><Link to='/projects/farebd'>Details</Link></button>
+                  </div>
+               </div>
+            </div>
+
+            <div className="card  bg-base-100 shadow-xl">
+               <figure><img src="https://i.ibb.co/NW1n6Pd/news71.jpg" alt="News71 Pic" /></figure>
+               <div className="card-body mx-auto" >
+                  <h2 className="card-title text-white text-2xl">
+                     News71 <span className='text-lg'>(News Portal)</span>
+                  </h2>
+                  <p>Group Project | Role: Leader & Github manager. <br /> News71 is a News Portal Website. It serves as a centralized hub where users can find news articles categorized by different topics and sections. Some features like a homepage with the latest news highlights, search functionality, article categories etc. </p>
+                  <p className=''><span className=''>Technology Used:</span>  Next.js, Express.js, Firebase, MongoDB, Flowbite, Tailwind
+                  </p>
+                  <div className="card-actions justify-end">
+                     <a href='https://news-71-f8a9f.web.app/'
+                        target='_blank'
+                        className="btn btn-sm btn-primary  bg-gradient-to-r from-primary to-secondary"> Live Site
+                        <span className='ml-2'><FaExternalLinkAlt></FaExternalLinkAlt></span></a>
+                     <button className='btn btn-sm btn-primary'><Link to='/projects/news71'>Details</Link></button>
+                  </div>
+               </div>
+            </div>
+
+            {/* <div className="card  bg-base-100 shadow-xl">
                <figure><img src="https://i.ibb.co/ZdnL4pG/Screenshot-2022-12-11-232828.jpg" alt="" /></figure>
                <div className="card-body mx-auto">
                   <h2 className="card-title text-white text-2xl">
@@ -53,10 +94,10 @@ const Projects = () => {
                   </div>
                </div>
             </div>
-
+ */}
 
          </div>
-      </div>
+      </div >
    );
 };
 

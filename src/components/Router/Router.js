@@ -9,6 +9,8 @@ import MoboSell from "../Projects/Project/MoboSell";
 import TheKitchen from "../Projects/Project/TheKitchen";
 import Projects from "../Projects/Projects";
 import UnKnownRoutes from "./UnKnownRoutes";
+import FareBd from "../Projects/Project/FareBd";
+import News71 from "../Projects/Project/News71";
 
 export const router = createBrowserRouter([
    {
@@ -41,13 +43,21 @@ export const router = createBrowserRouter([
             element: <MoboSell></MoboSell>
          },
          {
-            path: "/projects/thekitchen",
-            element: <TheKitchen></TheKitchen>
+            path: "/projects/farebd",
+            element: <FareBd></FareBd>
          },
          {
-            path: "/projects/edmy",
-            element: <Edmy></Edmy>
+            path: "/projects/news71",
+            element: <News71></News71>
          },
+         // {
+         //    path: "/projects/thekitchen",
+         //    element: <TheKitchen></TheKitchen>
+         // },
+         // {
+         //    path: "/projects/edmy",
+         //    element: <Edmy></Edmy>
+         // },
 
       ]
    }
