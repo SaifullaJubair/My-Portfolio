@@ -26,18 +26,18 @@ const Header = () => {
               </label>
               <ul
                 tabIndex={0}
-                className="menu menu-compact dropdown-content mt-3 p-2 shadow text-white font-bold  rounded-box w-52"
+                className="menu menu-compact dropdown-content mt-3 p-2 shadow  text-white font-bold  rounded-box w-52"
               >
-                <li>
+                <li className="hover:text-info duration-150">
                   <Link to="/">Home </Link>
                 </li>
-                <li>
+                <li className="hover:text-info duration-150">
                   <a href="#projects">Projects</a>
                 </li>
-                <li>
+                <li className="hover:text-info duration-150">
                   <a href="#about">About</a>
                 </li>
-                <li>
+                <li className="hover:text-info duration-150">
                   <Link to="/blog">Blog</Link>
                 </li>
               </ul>
@@ -52,17 +52,17 @@ const Header = () => {
             </p>
           </div>
           <div className="navbar-center hidden text-white font-semibold lg:flex">
-            <ul className="menu menu-horizontal px-1">
-              <li>
+            <ul className="menu menu-horizontal px-1 ">
+              <li className="hover:text-info duration-150">
                 <Link to="/">Home</Link>
               </li>
-              <li>
+              <li className="hover:text-info duration-150">
                 <a href="#projects">Projects</a>
               </li>
-              <li>
+              <li className="hover:text-info duration-150">
                 <a href="#about">About</a>
               </li>
-              <li>
+              <li className="hover:text-info duration-150">
                 <Link to="/blog">Blog </Link>
               </li>
             </ul>
