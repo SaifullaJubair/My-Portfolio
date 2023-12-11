@@ -13,7 +13,7 @@ const Banner = () => {
             style={{
               borderRadius: "30% 70% 70% 30% / 30% 30% 70% 70%    ",
             }}
-            className="border-red-200 border w-[450px] bg-success"
+            className="border-red-200 border lg:w-[450px] mx-auto bg-success"
           >
             <img
               className="  "
