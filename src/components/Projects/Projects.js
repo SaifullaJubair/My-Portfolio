@@ -9,7 +9,7 @@ const Projects = () => {
         <h1 className="text-center py-12 text-4xl font-semibold text-white">
           All Projects
         </h1>
-        <div className="grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mb-10">
+        <div className="grid gap-2 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mb-10">
           <div className="card  bg-base-100 shadow-xl">
             <figure>
               <img
@@ -18,8 +18,47 @@ const Projects = () => {
               />
             </figure>
             <div className="card-body mx-auto">
-              <h2 className="card-title text-white text-2xl">Mobo Sell</h2>
-              <p>
+              <h2 className="card-title text-gray-700 font-medium text-2xl">
+                Shovon's Gallery
+              </h2>
+              <p className="text-sm">
+                <span className="font-semibold">Shovon's Gallery</span> is a
+                feature-rich e-commerce platform specializing in artificial
+                ornaments and antique jewelry.
+              </p>
+              <p className="text-sm">
+                <span className="font-semibold">Technology Used:</span> ReactJS,
+                Tailwind, Flowbite, Node.js, ExpressJS, MongoDB, Firebase, React
+                Icons, React Toastify, SwiperJS, Custom Hooks. SSLCommcez.
+              </p>
+              <div className="card-actions justify-end">
+                <a
+                  href="https://mobosell-a12.web.app/"
+                  target="_blank"
+                  className="btn btn-sm btn-primary  bg-gradient-to-r from-primary to-secondary"
+                >
+                  {" "}
+                  Live Site
+                  <span className="ml-2">
+                    <FaExternalLinkAlt></FaExternalLinkAlt>
+                  </span>
+                </a>
+                <button className="btn btn-sm btn-primary">
+                  <Link to="/projects/shovon's-gallery">Details</Link>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div className="card  bg-base-100 shadow-xl">
+            <figure>
+              <img
+                src="https://i.ibb.co/y6tXmWg/Screenshot-2022-12-11-233141.jpg"
+                alt="Mobo Sell"
+              />
+            </figure>
+            <div className="card-body mx-auto">
+              <h2 className="card-title text-gray-700 text-2xl">Mobo Sell</h2>
+              <p className="text-sm">
                 This Website is used mobile shop. Here seller can sell their
                 phone and buyer can purchase phone .This website has stripe
                 payment system and firebase authentication with JWT security
@@ -49,18 +88,19 @@ const Projects = () => {
               <img src="https://i.ibb.co/7RNtCTh/farebd.jpg" alt="FareBd Pic" />
             </figure>
             <div className="card-body mx-auto">
-              <h2 className="card-title text-white text-2xl">
+              <h2 className="card-title text-gray-700 text-2xl">
                 FareBD{" "}
-                <span className="text-lg"> (House Rental & Selling App)</span>
+                <span className="text-xs"> (House Rental & Selling App)</span>
               </h2>
-              <p>
+              <p className="text-sm">
                 Group Project | Role: Leader & Github manager. <br />
-                House sale and rental website Where the house owner can sell the
-                house and pay the rent, Tenant can buy house can take rent.
-                Functionality can be used in a variety of ways.
+                <span className="font-semibold">FareBD</span> is a House sale
+                and rental website Where the house owner can sell the house and
+                pay the rent, Tenant can buy house can take rent. Functionality
+                can be used in a variety of ways.
                 <p className="">
-                  <span className="">Technology Used:</span> Next.js,
-                  Express.js, Firebase, MongoDB, Flowbite, Tailwind
+                  <span className="font-semibold">Technology Used:</span>{" "}
+                  Next.js, Express.js, Firebase, MongoDB, Flowbite, Tailwind
                 </p>
               </p>
               <div className="card-actions justify-end">
@@ -87,19 +127,21 @@ const Projects = () => {
               <img src="https://i.ibb.co/NW1n6Pd/news71.jpg" alt="News71 Pic" />
             </figure>
             <div className="card-body mx-auto">
-              <h2 className="card-title text-white text-2xl">
+              <h2 className="card-title text-gray-700 text-2xl">
                 News71 <span className="text-lg">(News Portal)</span>
               </h2>
-              <p>
-                Group Project | Role: Leader & Github manager. <br /> News71 is
-                a News Portal Website. It serves as a centralized hub where
-                users can find news articles categorized by different topics and
-                sections. Some features like a homepage with the latest news
-                highlights, search functionality, article categories etc.{" "}
+              <p className="text-sm">
+                Group Project | Role: Leader & Github manager. <br />{" "}
+                <span className="font-semibold">News71</span> is a{" "}
+                <span className="font-semibold">News Portal</span> Website. It
+                serves as a centralized hub where users can find news articles
+                categorized by different topics and sections.
+                {/* Some features like a homepage with the latest news
+                highlights, search functionality, article categories etc.{" "} */}
               </p>
-              <p className="">
-                <span className="">Technology Used:</span> Next.js, Express.js,
-                Firebase, MongoDB, Flowbite, Tailwind
+              <p className="text-sm">
+                <span className="font-semibold">Technology Used:</span> Next.js,
+                Express.js, Firebase, MongoDB, Flowbite, Tailwind
               </p>
               <div className="card-actions justify-end">
                 <a

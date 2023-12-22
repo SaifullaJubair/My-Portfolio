@@ -7,23 +7,11 @@ const Banner = () => {
       id=""
       className="bg-primary text-white min-h-screen  font-semibold"
     >
-      <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-36 banner ">
-        <div className="grid lg:grid-cols-2">
-          <div
-            style={{
-              borderRadius: "30% 70% 70% 30% / 30% 30% 70% 70%    ",
-            }}
-            className="border-red-200 border lg:w-[450px] mx-auto bg-success"
-          >
-            <img
-              className="  "
-              src="https://i.ibb.co/CMNJ9ZT/saifulla-png-removebg-preview-1-1.png"
-              alt=""
-            />
-          </div>
-          <div className="lg:pr-10 lg:my-0 md:my-12 my-12">
+      <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl lg:px-8 lg:py-36 banner ">
+        <div className="lg:flex-row flex-col-reverse flex md:flex-row ">
+          <div className="lg:pr-10 lg:my-10 md:my-12 my-12 lg:w-1/2 w-full">
             <h2 className="text-5xl tracking-wide ">Hi, I'm</h2>
-            <h1 className="lg:text-7xl md:text-7xl text-5xl tracking-wider ">
+            <h1 className="lg:text-6xl md:text-5xl text-5xl tracking-wider ">
               Saifulla Jubair
             </h1>
             <p className="my-6  text-2xl tracking-wider">
@@ -50,6 +38,13 @@ const Banner = () => {
                 <FaExternalLinkAlt></FaExternalLinkAlt>
               </span>
             </a>
+          </div>
+          <div className="lg:w-1/2 w-full">
+            <img
+              className="  w-full md:w-[600px] h-auto md:h-[522px]"
+              src="https://i.ibb.co/3zqBVxP/Untitled-design-1.png"
+              alt=""
+            />
           </div>
         </div>
       </div>
