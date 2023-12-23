@@ -9,7 +9,7 @@ const Projects = () => {
         <h1 className="text-center py-12 text-4xl font-semibold text-white">
           All Projects
         </h1>
-        <div className="grid gap-2 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mb-10">
+        <div className="grid gap-3 mx-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mb-10">
           <div className="card  bg-base-100 shadow-xl">
             <figure>
               <img
@@ -28,8 +28,8 @@ const Projects = () => {
               </p>
               <p className="text-sm">
                 <span className="font-semibold">Technology Used:</span> ReactJS,
-                Tailwind, Flowbite, Node.js, ExpressJS, MongoDB, Firebase, React
-                Icons, React Toastify, SwiperJS, Custom Hooks. SSLCommcez.
+                Tailwind, Flowbite, Node.js, ExpressJS, MongoDB, Firebase,
+                SSLCommcez.
               </p>
               <div className="card-actions justify-end">
                 <a
@@ -128,7 +128,7 @@ const Projects = () => {
             </figure>
             <div className="card-body mx-auto">
               <h2 className="card-title text-gray-700 text-2xl">
-                News71 <span className="text-lg">(News Portal)</span>
+                News71 <span className="text-sm">(News Portal)</span>
               </h2>
               <p className="text-sm">
                 Group Project | Role: Leader & Github manager. <br />{" "}
