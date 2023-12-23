@@ -1,6 +1,7 @@
 import React from "react";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import "./Banner.css";
+import { TypeAnimation } from "react-type-animation";
 const Banner = () => {
   return (
     <section
@@ -14,11 +15,25 @@ const Banner = () => {
             <h1 className="lg:text-6xl md:text-5xl text-5xl tracking-wider ">
               Saifulla Jubair
             </h1>
-            <p className="my-6  text-2xl tracking-wider">
-              I'm MERN Stack Developer
-              {/* I'm Front-end Developer.Daily learner */}
-              {/* I am a MERN Stack developer who learned and was certified by Programming Hero. I have done many full-stack projects with React and Node js. */}
-            </p>
+
+            <TypeAnimation
+              sequence={[
+                "I'm Front-end Developer", // Types 'One'
+                1000, // Waits 1s
+                "I'm MERN Stack Developer", // Deletes 'One' and types 'Two'
+                3000, // Waits 2s
+                "I'm Full Stack Developer", // Types 'Three' without deleting 'Two'
+                5000, // Waits 3s
+                "I'm Daily learner",
+                8000,
+              ]}
+              wrapper="span"
+              cursor={true}
+              repeat={Infinity}
+              speed={50}
+              style={{ fontSize: "2em", display: "inline-block" }}
+            />
+
             <p className="my-8 text-gray-500">
               I'm a passionate UI/UX designer with a mission to create
               delightful and intuitive digital experiences. With a strong
