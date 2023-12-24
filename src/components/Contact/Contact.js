@@ -37,7 +37,7 @@ const Contact = () => {
         <div className="py-6 md:py-0 md:px-6 my-6">
           <h1 className="text-5xl font-bold">Get in touch</h1>
           <p className="pt-2 pb-4">Fill in the form to start a conversation</p>
-          <div className="space-y-4">
+          <div className="space-y-4 text-lg ">
             <p className="flex items-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -145,7 +145,7 @@ const Contact = () => {
               required
             ></textarea>
           </label>
-          <button className="btn bg-gradient-to-r from-primary to-secondary hover:text-orange-100">
+          <button className="btn bg-gradient-to-r  text-lg from-primary text-white to-secondary hover:text-info duration-250">
             Submit
           </button>
         </form>
