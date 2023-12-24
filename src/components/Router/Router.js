@@ -12,6 +12,8 @@ import UnKnownRoutes from "./UnKnownRoutes";
 import FareBd from "../Projects/Project/FareBd";
 import News71 from "../Projects/Project/News71";
 import ShovonsGallery from "../Projects/Project/Shovon'sGallery";
+import MyServices from "../MyServices/MyServices";
+import Skills from "../Skills/Skills";
 
 export const router = createBrowserRouter([
   {
@@ -22,6 +24,14 @@ export const router = createBrowserRouter([
       {
         path: "/",
         element: <Home></Home>,
+      },
+      {
+        path: "/service",
+        element: <MyServices />,
+      },
+      {
+        path: "/skills",
+        element: <Skills />,
       },
       {
         path: "/projects",

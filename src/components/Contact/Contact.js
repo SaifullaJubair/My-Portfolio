@@ -29,7 +29,10 @@ const Contact = () => {
   };
 
   return (
-    <section className="py-6 dark:bg-primary dark:text-gray-50 pb-24">
+    <section
+      id="contact"
+      className="py-6 dark:bg-primary dark:text-gray-50 pb-24"
+    >
       <div className="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x">
         <div className="py-6 md:py-0 md:px-6 my-6">
           <h1 className="text-5xl font-bold">Get in touch</h1>
