@@ -91,29 +91,28 @@ const ShovonsGallery = () => {
             Hooks. SSLCommcez.
           </p>
         </div>
-        <div className="btn-group m-6">
-          <a
+        <span className="inline-flex -space-x-px overflow-hidden rounded-md border bg-white shadow-sm my-6">
+          <button
+            className="inline-block px-4 py-2  font-medium text-gray-600  hover:bg-info transition hover:scale-110 focus:relative"
             href="https://shovon-sgallery.web.app/"
-            className="btn hover:bg-gradient-to-r from-primary to-secondary"
           >
             Live Site
-          </a>
+          </button>
 
-          <a
+          <button
+            className="inline-block px-4 py-2  font-medium text-gray-600 hover:bg-info transition hover:scale-110 focus:relative"
             href="https://github.com/SaifullaJubair/shovon-gallery-client"
-            className="btn hover:bg-gradient-to-r from-primary to-secondary"
           >
             GitHub Client
-          </a>
+          </button>
 
-          <a
+          <button
+            className="inline-block px-4 py-2  font-medium text-gray-600 hover:bg-info transition hover:scale-110 focus:relative"
             href="https://github.com/SaifullaJubair/shovon-gallery-server"
-            className="btn hover:bg-gradient-to-r from-primary to-secondary"
           >
-            {" "}
             GutHub Server
-          </a>
-        </div>
+          </button>
+        </span>
       </div>
     </div>
   );
