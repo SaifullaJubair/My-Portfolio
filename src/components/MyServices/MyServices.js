@@ -8,7 +8,10 @@ const MyServices = () => {
   return (
     <div id="service" className="bg-accent">
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-        <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
+        <div
+          className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12"
+          data-aos="zoom-in"
+        >
           <p className="text-info text-3xl py-6 font-semibold tracking-wider">
             MY SERVICE
           </p>
@@ -41,8 +44,17 @@ const MyServices = () => {
             stories through design and development
           </h2>
         </div>
-        <div className="grid gap-8 row-gap-8 lg:grid-cols-3">
-          <div className="sm:text-center">
+        <div
+          className="grid gap-8 row-gap-8 lg:grid-cols-3"
+          data-aos="fade-up"
+          data-aos-duration="3000"
+        >
+          {/* Frontend Development */}
+          <div
+            className="sm:text-center"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
             <div className="flex items-center justify-center mb-4  sm:mx-auto sm:w-24 sm:h-24">
               <img
                 src={img1}
@@ -59,7 +71,12 @@ const MyServices = () => {
               interfaces.
             </p>
           </div>
-          <div className="sm:text-center">
+          {/* Backend Development */}
+          <div
+            className="sm:text-center"
+            data-aos="fade-up"
+            data-aos-duration="2500"
+          >
             <div className="flex items-center justify-center mb-4  sm:mx-auto sm:w-24 sm:h-24">
               <img
                 src={img2}
@@ -76,7 +93,12 @@ const MyServices = () => {
               applications.
             </p>
           </div>
-          <div className="sm:text-center">
+          {/* FullStack Development */}
+          <div
+            className="sm:text-center"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
             <div className="flex items-center justify-center mb-4  sm:mx-auto sm:w-24 sm:h-24">
               <img
                 src={img3}

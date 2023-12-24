@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <div className="bg-primary">
+    <div className="bg-primary sticky top-0 z-10">
       <section className="  max-w-[1320px] mx-auto bg-secondary">
         <div className="navbar ">
           <div className="navbar-start">
@@ -42,14 +42,19 @@ const Header = () => {
                 </li>
               </ul>
             </div>
-            <img
-              src="https://i.ibb.co/6XjZYCy/creative-2.png "
-              alt=""
-              className="h-12 w-12 mr-2 "
-            />
-            <p className="text-white text-xl font-semibold tracking-wider ">
-              Saifulla
-            </p>
+            <Link to="/">
+              {" "}
+              <img
+                src="https://i.ibb.co/6XjZYCy/creative-2.png "
+                alt=""
+                className="h-12 w-12 mr-2 "
+              />
+            </Link>
+            <Link to="/">
+              <p className="text-white text-xl font-semibold tracking-wider ">
+                Saifulla
+              </p>
+            </Link>
           </div>
           <div className="navbar-center hidden text-white font-semibold lg:flex">
             <ul className="menu menu-horizontal px-1 ">
@@ -76,12 +81,12 @@ const Header = () => {
             </ul>
           </div>
           <div className="navbar-end text-white">
-            <Link
-              to="#contact"
+            <a
+              href="#contact"
               className="btn hover:text-white tracking-wide text-accent bg-info"
             >
               Hire ME
-            </Link>
+            </a>
           </div>
         </div>
       </section>

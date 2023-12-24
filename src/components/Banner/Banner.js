@@ -10,7 +10,10 @@ const Banner = () => {
     >
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl lg:px-8 lg:py-36 banner ">
         <div className="lg:flex-row flex-col-reverse flex md:flex-row ">
-          <div className="lg:pr-10 lg:my-10 md:my-12 my-12 lg:w-1/2 w-full">
+          <div
+            className="lg:pr-10 lg:my-10 md:my-12 my-12 lg:w-1/2 w-full"
+            data-aos="zoom-in-left"
+          >
             <h2 className="text-5xl tracking-wide ">Hi, I'm</h2>
             <h1 className="lg:text-6xl md:text-5xl text-5xl mt-2 mb-4 text- tracking-wider ">
               Saifulla Jubair
@@ -55,7 +58,7 @@ const Banner = () => {
               </span>
             </a>
           </div>
-          <div className="lg:w-1/2 w-full">
+          <div className="lg:w-1/2 w-full" data-aos="zoom-in-right">
             <img
               className="  w-full md:w-[600px] h-auto md:h-[522px]"
               src="https://i.ibb.co/3zqBVxP/Untitled-design-1.png"

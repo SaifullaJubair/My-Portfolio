@@ -10,7 +10,11 @@ const Footer = () => {
     <div className="footers pt-6  bg-neutral  px-16">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  max-w-[1320px] mx-auto text-white my-8">
         {/* Address  */}
-        <div className="flex flex-col md:flex-row md:items-center  gap-4 my-6">
+        <div
+          className="flex flex-col md:flex-row md:items-center  gap-4 my-6"
+          data-aos="fade-up"
+          data-aos-duration="1500"
+        >
           <div className="bg-info rounded-full w-24 h-24 items-center justify-center flex">
             <FaLocationDot className=" text-primary text-4xl" />
           </div>
@@ -21,7 +25,11 @@ const Footer = () => {
           </div>
         </div>
         {/* Contact  */}
-        <div className="flex flex-col md:flex-row md:items-center  gap-4 mb-6 ">
+        <div
+          className="flex flex-col md:flex-row md:items-center  gap-4 mb-6 "
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
           <div className="bg-info rounded-full w-24 h-24 items-center justify-center flex">
             <FaPhoneAlt className=" text-primary text-4xl" />
           </div>
@@ -32,7 +40,11 @@ const Footer = () => {
         </div>
 
         {/* Email  */}
-        <div className="flex flex-col md:flex-row md:items-center  gap-4  mb-6">
+        <div
+          className="flex flex-col md:flex-row md:items-center  gap-4  mb-6"
+          data-aos="fade-up"
+          data-aos-duration="3000"
+        >
           <div className="bg-info rounded-full w-24 h-24 items-center justify-center flex">
             <MdEmail className=" text-primary text-4xl" />
           </div>

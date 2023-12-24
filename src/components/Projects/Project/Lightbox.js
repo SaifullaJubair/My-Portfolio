@@ -3,7 +3,7 @@ import React from "react";
 
 const Lightbox = ({ imageUrl, onClose }) => {
   return (
-    <div className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-50">
+    <div className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-50 z-50">
       <img src={imageUrl} alt="Full Screen" className="max-h-full max-w-full" />
       <button
         className="btn btn-circle absolute top-8 right-10"

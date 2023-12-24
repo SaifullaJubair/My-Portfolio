@@ -54,7 +54,10 @@ const Skills = () => {
   return (
     <div className="bg-primary  p-8" id="skills">
       <div className="max-w-[1320px] mb-10 mx-auto">
-        <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
+        <div
+          className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12"
+          data-aos="zoom-in"
+        >
           <p className="text-info text-3xl py-6 font-semibold tracking-wider">
             Why Choose Me
           </p>
