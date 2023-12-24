@@ -1,5 +1,9 @@
 import React from "react";
-
+import { BsFileEarmarkCode } from "react-icons/bs";
+import { FaLocationDot } from "react-icons/fa6";
+import img1 from "../../asset/undraw_Static_website_re_x70h.png";
+import img2 from "../../asset/undraw_hacker_mind_6y85.png";
+import img3 from "../../asset/undraw_Developer_activity_re_39tg.png";
 const MyServices = () => {
   return (
     <div id="service" className="bg-accent">
@@ -39,20 +43,12 @@ const MyServices = () => {
         </div>
         <div className="grid gap-8 row-gap-8 lg:grid-cols-3">
           <div className="sm:text-center">
-            <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 sm:mx-auto sm:w-24 sm:h-24">
-              <svg
-                className="w-12 h-12 text-deep-purple-accent-400 sm:w-20 sm:h-20"
-                stroke="currentColor"
-                viewBox="0 0 52 52"
-              >
-                <polygon
-                  strokeWidth="3"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  fill="none"
-                  points="29 13 14 29 25 29 23 39 38 23 27 23"
-                />
-              </svg>
+            <div className="flex items-center justify-center mb-4  sm:mx-auto sm:w-24 sm:h-24">
+              <img
+                src={img1}
+                className="w-24 h-24 rounded-full ring-2 ring-lime-400"
+                alt=""
+              />
             </div>
             <h6 className="mb-2 font-semibold leading-5 text-lg text-white">
               Frontend Development.
@@ -64,20 +60,12 @@ const MyServices = () => {
             </p>
           </div>
           <div className="sm:text-center">
-            <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 sm:mx-auto sm:w-24 sm:h-24">
-              <svg
-                className="w-12 h-12 text-deep-purple-accent-400 sm:w-20 sm:h-20"
-                stroke="currentColor"
-                viewBox="0 0 52 52"
-              >
-                <polygon
-                  strokeWidth="3"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  fill="none"
-                  points="29 13 14 29 25 29 23 39 38 23 27 23"
-                />
-              </svg>
+            <div className="flex items-center justify-center mb-4  sm:mx-auto sm:w-24 sm:h-24">
+              <img
+                src={img2}
+                className="w-24 h-24 rounded-full ring-2 ring-lime-400"
+                alt=""
+              />
             </div>
             <h6 className="mb-2 font-semibold leading-5 text-lg text-white">
               Backend Development
@@ -89,20 +77,12 @@ const MyServices = () => {
             </p>
           </div>
           <div className="sm:text-center">
-            <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 sm:mx-auto sm:w-24 sm:h-24">
-              <svg
-                className="w-12 h-12 text-deep-purple-accent-400 sm:w-20 sm:h-20"
-                stroke="currentColor"
-                viewBox="0 0 52 52"
-              >
-                <polygon
-                  strokeWidth="3"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  fill="none"
-                  points="29 13 14 29 25 29 23 39 38 23 27 23"
-                />
-              </svg>
+            <div className="flex items-center justify-center mb-4  sm:mx-auto sm:w-24 sm:h-24">
+              <img
+                src={img3}
+                className="w-24 h-24 rounded-full ring-2 ring-lime-400"
+                alt=""
+              />
             </div>
             <h6 className="mb-2 font-semibold leading-5 text-lg text-white">
               Full-Stack Development

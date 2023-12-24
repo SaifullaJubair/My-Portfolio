@@ -12,7 +12,7 @@ const Banner = () => {
         <div className="lg:flex-row flex-col-reverse flex md:flex-row ">
           <div className="lg:pr-10 lg:my-10 md:my-12 my-12 lg:w-1/2 w-full">
             <h2 className="text-5xl tracking-wide ">Hi, I'm</h2>
-            <h1 className="lg:text-6xl md:text-5xl text-5xl tracking-wider ">
+            <h1 className="lg:text-6xl md:text-5xl text-5xl mt-2 mb-4 text- tracking-wider ">
               Saifulla Jubair
             </h1>
 
@@ -21,11 +21,11 @@ const Banner = () => {
                 "I'm Front-end Developer", // Types 'One'
                 1000, // Waits 1s
                 "I'm MERN Stack Developer", // Deletes 'One' and types 'Two'
-                3000, // Waits 2s
+                1000, // Waits 2s
                 "I'm Full Stack Developer", // Types 'Three' without deleting 'Two'
-                5000, // Waits 3s
+                1000, // Waits 3s
                 "I'm Daily learner",
-                7000,
+                1000,
               ]}
               wrapper="span"
               cursor={true}

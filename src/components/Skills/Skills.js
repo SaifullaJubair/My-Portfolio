@@ -65,8 +65,9 @@ const Skills = () => {
         <SkillBar
           skills={skills}
           colors={colors}
+          animationDelay={500}
           height={22}
-          symbolColor={"#3498db"}
+          symbolColor={"#fff"}
         />
       </div>
     </div>
