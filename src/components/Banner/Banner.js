@@ -25,7 +25,7 @@ const Banner = () => {
                 "I'm Full Stack Developer", // Types 'Three' without deleting 'Two'
                 5000, // Waits 3s
                 "I'm Daily learner",
-                8000,
+                7000,
               ]}
               wrapper="span"
               cursor={true}

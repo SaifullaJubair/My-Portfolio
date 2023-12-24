@@ -7,7 +7,9 @@ const About = () => {
         <div className="mb-6 md:mb-8 text-white">
           <div>
             <h2 className=" mb-5 font-sans text-3xl font-bold tracking-tight sm:text-4xl md:mb-6 group text-center">
-              <span className="inline-block mb-1 sm:mb-4">About Me</span>
+              <span className="inline-block mb-1 sm:mb-4 text-5xl">
+                About Me
+              </span>
               <div className="h-1 ml-auto duration-300 origin-left transform bg-deep-purple-accent-400 scale-x-30 group-hover:scale-x-100" />
             </h2>
             <p className="lg:max-w-3xl mx-auto">
