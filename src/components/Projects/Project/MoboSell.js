@@ -18,7 +18,7 @@ const MoboSell = () => {
     "https://i.ibb.co/t4M6rhD/Screenshot-2022-12-11-233347.jpg",
   ];
   return (
-    <div>
+    <div className="max-w-[1320px] mx-auto my-12">
       <div>
         <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-3 mx-2">
           {images.map((imageUrl, index) => (
@@ -73,29 +73,28 @@ const MoboSell = () => {
           MongoDB, Express, Node. Stripe, daisyUI
         </p>
       </div>
-      <div className="btn-group m-6">
-        <a
+      <span className="inline-flex -space-x-px overflow-hidden rounded-md border bg-white shadow-sm my-6">
+        <button
+          className="inline-block px-4 py-2  font-medium text-gray-600  hover:bg-info transition hover:scale-110 focus:relative"
           href="https://mobosell-a12.web.app/"
-          className="btn hover:bg-gradient-to-r from-primary to-secondary"
         >
           Live Site
-        </a>
+        </button>
 
-        <a
+        <button
+          className="inline-block px-4 py-2  font-medium text-gray-600 hover:bg-info transition hover:scale-110 focus:relative"
           href="https://github.com/SaifullaJubair/MogoSell"
-          className="btn hover:bg-gradient-to-r from-primary to-secondary"
         >
           GitHub Client
-        </a>
+        </button>
 
-        <a
+        <button
+          className="inline-block px-4 py-2  font-medium text-gray-600 hover:bg-info transition hover:scale-110 focus:relative"
           href="https://github.com/SaifullaJubair/MoboSell-Server"
-          className="btn hover:bg-gradient-to-r from-primary to-secondary"
         >
-          {" "}
           GutHub Server
-        </a>
-      </div>
+        </button>
+      </span>
     </div>
   );
 };
