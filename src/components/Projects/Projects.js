@@ -13,7 +13,7 @@ const Projects = () => {
           <div className="card  bg-base-100 shadow-xl">
             <Link to="/projects/shovon's-gallery">
               <img
-                src="https://i.ibb.co/y6tXmWg/Screenshot-2022-12-11-233141.jpg"
+                src="https://i.ibb.co/RhJqrRd/Screenshot-2023-12-24-215500.png"
                 alt="Mobo Sell"
               />
             </Link>
