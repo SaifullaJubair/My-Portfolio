@@ -35,11 +35,12 @@ const Banner = () => {
             />
 
             <p className="my-8 text-gray-500">
-              I'm a passionate UI/UX designer with a mission to create
-              delightful and intuitive digital experiences. With a strong
-              foundation in design principles and a keen eye for detail, I
-              specialize in translating complex ideas into user-friendly
-              interfaces that captivate and engage.
+              "As a Full Stack Developer, I am passionate about architecting
+              end-to-end solutions that seamlessly integrate both frontend and
+              backend technologies. With expertise in a diverse range of tools
+              and languages, from React for dynamic user interfaces to Node.js
+              and MongoDB for scalable server-side applications, I bring a
+              holistic approach to web development."
             </p>
             <hr className="mb-5 border-gray-300" />
 

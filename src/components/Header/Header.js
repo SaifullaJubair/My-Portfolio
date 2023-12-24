@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <div className="bg-primary">
-      <section className=" sticky top-0 z-50 max-w-[1320px] mx-auto bg-secondary">
+      <section className="  max-w-[1320px] mx-auto bg-secondary">
         <div className="navbar ">
           <div className="navbar-start">
             <div className="dropdown">
@@ -57,7 +57,9 @@ const Header = () => {
                 <Link to="/">Home</Link>
               </li>
               <li className="hover:text-info duration-150">
-                <a href="#service">Service</a>
+                <a href="#service" className="">
+                  Service
+                </a>
               </li>
               <li className="hover:text-info duration-150">
                 <a href="#skills">Skills</a>

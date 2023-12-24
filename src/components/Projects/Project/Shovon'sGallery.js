@@ -1,27 +1,39 @@
-import React from "react";
+import React, { useState } from "react";
 import { FaCheckCircle } from "react-icons/fa";
+import Lightbox from "./Lightbox";
 
 const ShovonsGallery = () => {
+  const [lightboxImage, setLightboxImage] = useState(null);
+
+  const openLightbox = (imageUrl) => {
+    setLightboxImage(imageUrl);
+  };
+
+  const closeLightbox = () => {
+    setLightboxImage(null);
+  };
+  const images = [
+    "https://i.ibb.co/y6tXmWg/Screenshot-2022-12-11-233141.jpg",
+    "https://i.ibb.co/S7Dy68c/Screenshot-2022-12-11-233209.jpg",
+    "https://i.ibb.co/t4M6rhD/Screenshot-2022-12-11-233347.jpg",
+  ];
   return (
     <div className="max-w-[1320px] mx-auto my-12">
       <div>
         <div>
           <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-3 mx-2">
-            <img
-              src="https://i.ibb.co/y6tXmWg/Screenshot-2022-12-11-233141.jpg"
-              alt=""
-            />
-            <img
-              src="https://i.ibb.co/S7Dy68c/Screenshot-2022-12-11-233209.jpg"
-              alt=""
-              srcset=""
-            />
-            <img
-              src="https://i.ibb.co/t4M6rhD/Screenshot-2022-12-11-233347.jpg"
-              alt=""
-              srcset=""
-            />
+            {images.map((imageUrl, index) => (
+              <img
+                key={index}
+                src={imageUrl}
+                alt=""
+                onClick={() => openLightbox(imageUrl)}
+              />
+            ))}
           </div>
+          {lightboxImage && (
+            <Lightbox imageUrl={lightboxImage} onClose={closeLightbox} />
+          )}
         </div>
         <div className="lg:max-w-3xl mx-2">
           <h1 className="text-3xl my-4 text-gray-800 font-semibold">
