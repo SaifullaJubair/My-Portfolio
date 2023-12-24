@@ -11,12 +11,12 @@ const Projects = () => {
         </h1>
         <div className="grid gap-3 mx-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mb-10">
           <div className="card  bg-base-100 shadow-xl">
-            <figure>
+            <Link to="/projects/shovon's-gallery">
               <img
                 src="https://i.ibb.co/y6tXmWg/Screenshot-2022-12-11-233141.jpg"
                 alt="Mobo Sell"
               />
-            </figure>
+            </Link>
             <div className="card-body mx-auto">
               <h2 className="card-title text-gray-700 font-medium text-2xl">
                 Shovon's Gallery
@@ -32,7 +32,7 @@ const Projects = () => {
                 SSLCommcez.
               </p>
               <div className="card-actions justify-end">
-                <a
+                <Link
                   href="https://mobosell-a12.web.app/"
                   target="_blank"
                   className="btn btn-sm btn-primary  bg-gradient-to-r from-primary to-secondary"
@@ -42,7 +42,7 @@ const Projects = () => {
                   <span className="ml-2">
                     <FaExternalLinkAlt></FaExternalLinkAlt>
                   </span>
-                </a>
+                </Link>
                 <button className="btn btn-sm btn-primary">
                   <Link to="/projects/shovon's-gallery">Details</Link>
                 </button>
@@ -50,12 +50,12 @@ const Projects = () => {
             </div>
           </div>
           <div className="card  bg-base-100 shadow-xl">
-            <figure>
+            <Link to="/projects/mobosell">
               <img
                 src="https://i.ibb.co/y6tXmWg/Screenshot-2022-12-11-233141.jpg"
                 alt="Mobo Sell"
               />
-            </figure>
+            </Link>
             <div className="card-body mx-auto">
               <h2 className="card-title text-gray-700 text-2xl">Mobo Sell</h2>
               <p className="text-sm">
@@ -84,9 +84,9 @@ const Projects = () => {
           </div>
 
           <div className="card  bg-base-100 shadow-xl">
-            <figure>
+            <Link to="/projects/farebd">
               <img src="https://i.ibb.co/7RNtCTh/farebd.jpg" alt="FareBd Pic" />
-            </figure>
+            </Link>
             <div className="card-body mx-auto">
               <h2 className="card-title text-gray-700 text-2xl">
                 FareBD{" "}
@@ -123,9 +123,9 @@ const Projects = () => {
           </div>
 
           <div className="card  bg-base-100 shadow-xl">
-            <figure>
+            <Link to="/projects/news71">
               <img src="https://i.ibb.co/NW1n6Pd/news71.jpg" alt="News71 Pic" />
-            </figure>
+            </Link>
             <div className="card-body mx-auto">
               <h2 className="card-title text-gray-700 text-2xl">
                 News71 <span className="text-sm">(News Portal)</span>
