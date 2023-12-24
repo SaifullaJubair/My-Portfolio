@@ -8,7 +8,7 @@ import Edmy from "../Projects/Project/Edmy";
 import MoboSell from "../Projects/Project/MoboSell";
 import TheKitchen from "../Projects/Project/TheKitchen";
 import Projects from "../Projects/Projects";
-import UnKnownRoutes from "./UnKnownRoutes";
+// import UnKnownRoutes from "./UnKnownRoutes";
 import FareBd from "../Projects/Project/FareBd";
 import News71 from "../Projects/Project/News71";
 import ShovonsGallery from "../Projects/Project/Shovon'sGallery";
@@ -19,7 +19,7 @@ export const router = createBrowserRouter([
   {
     path: "/",
     element: <Main></Main>,
-    errorElement: <UnKnownRoutes></UnKnownRoutes>,
+    // errorElement: <UnKnownRoutes></UnKnownRoutes>,
     children: [
       {
         path: "/",

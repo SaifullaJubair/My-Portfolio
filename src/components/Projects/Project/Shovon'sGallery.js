@@ -13,9 +13,11 @@ const ShovonsGallery = () => {
     setLightboxImage(null);
   };
   const images = [
-    "https://i.ibb.co/y6tXmWg/Screenshot-2022-12-11-233141.jpg",
-    "https://i.ibb.co/S7Dy68c/Screenshot-2022-12-11-233209.jpg",
-    "https://i.ibb.co/t4M6rhD/Screenshot-2022-12-11-233347.jpg",
+    "https://i.ibb.co/RhJqrRd/Screenshot-2023-12-24-215500.png",
+    "https://i.ibb.co/D8W6tfS/shovon-gallery-home.png",
+    "https://i.ibb.co/L6LB6Nc/shovon-singlepage.png",
+    "https://i.ibb.co/km3kk67/shovon-cart.png",
+    "https://i.ibb.co/L0hTx7r/dahboard-shovon-gallery.png",
   ];
   return (
     <div className="max-w-[1320px] mx-auto my-12">
@@ -35,7 +37,7 @@ const ShovonsGallery = () => {
             <Lightbox imageUrl={lightboxImage} onClose={closeLightbox} />
           )}
         </div>
-        <div className="lg:max-w-3xl mx-2">
+        <div className="lg:max-w-3xl my-6 mx-2">
           <h1 className="text-3xl my-4 text-gray-800 font-semibold">
             Shovon's Gallery
           </h1>
