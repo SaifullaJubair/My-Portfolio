@@ -79,26 +79,26 @@ const News71 = () => {
       </div>
 
       <span className="inline-flex -space-x-px overflow-hidden rounded-md border bg-white shadow-sm my-6">
-        <button
+        <a
           className="inline-block px-4 py-2  font-medium text-gray-600  hover:bg-info transition hover:scale-110 focus:relative"
           href="https://news-71-f8a9f.web.app/"
         >
           Live Site
-        </button>
+        </a>
 
-        <button
+        <a
           className="inline-block px-4 py-2  font-medium text-gray-600 hover:bg-info transition hover:scale-110 focus:relative"
           href="https://github.com/SaifullaJubair/News-71"
         >
           GitHub Client
-        </button>
+        </a>
 
-        <button
+        <a
           className="inline-block px-4 py-2  font-medium text-gray-600 hover:bg-info transition hover:scale-110 focus:relative"
           href="https://github.com/SaifullaJubair/news-71-server"
         >
           GutHub Server
-        </button>
+        </a>
       </span>
     </div>
   );
