@@ -32,8 +32,8 @@ const Projects = () => {
                 SSLCommcez.
               </p>
               <div className="card-actions justify-end">
-                <Link
-                  href="https://mobosell-a12.web.app/"
+                <a
+                  href="https://shovon-sgallery.web.app/"
                   target="_blank"
                   className="btn btn-sm btn-primary  bg-gradient-to-r from-primary to-secondary"
                 >
@@ -42,7 +42,7 @@ const Projects = () => {
                   <span className="ml-2">
                     <FaExternalLinkAlt></FaExternalLinkAlt>
                   </span>
-                </Link>
+                </a>
                 <button className="btn btn-sm btn-primary">
                   <Link to="/projects/shovon's-gallery">Details</Link>
                 </button>
