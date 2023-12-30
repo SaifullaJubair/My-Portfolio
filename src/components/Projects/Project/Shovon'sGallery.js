@@ -94,26 +94,26 @@ const ShovonsGallery = () => {
           </p>
         </div>
         <span className="inline-flex -space-x-px overflow-hidden rounded-md border bg-white shadow-sm my-6">
-          <button
+          <a
             className="inline-block px-4 py-2  font-medium text-gray-600  hover:bg-info transition hover:scale-110 focus:relative"
             href="https://shovon-sgallery.web.app/"
           >
             Live Site
-          </button>
+          </a>
 
-          <button
+          <a
             className="inline-block px-4 py-2  font-medium text-gray-600 hover:bg-info transition hover:scale-110 focus:relative"
             href="https://github.com/SaifullaJubair/shovon-gallery-client"
           >
             GitHub Client
-          </button>
+          </a>
 
-          <button
+          <a
             className="inline-block px-4 py-2  font-medium text-gray-600 hover:bg-info transition hover:scale-110 focus:relative"
             href="https://github.com/SaifullaJubair/shovon-gallery-server"
           >
             GutHub Server
-          </button>
+          </a>
         </span>
       </div>
     </div>
