@@ -19,7 +19,12 @@ const FareBd = () => {
   ];
   return (
     <div className="max-w-[1320px] mx-auto my-12">
-      <div className="mt-16">
+      <div>
+        <h1 className="font-semibold text-3xl  my-8 text-gray-700">
+          FareBD: (House Rental & Selling App)
+        </h1>
+      </div>
+      <div className="">
         <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-3 mx-2">
           {images.map((imageUrl, index) => (
             <img
@@ -35,47 +40,105 @@ const FareBd = () => {
         )}
       </div>
       <div className="lg:max-w-3xl mx-2">
-        <h1 className="text-3xl my-4 text-white">FareBD</h1>
-        <p>Group Project | Role: Leader</p>
-        <p>
-          {" "}
-          House sale and rental website Where the house owner can sell the house
-          and pay the rent, Tenant can buy house can take rent. Functionality
-          can be used in a variety of ways.
+        <p className="text-2xl my-4 text-gray-700 font-semibold">
+          Group Project | Role: Leader <br />
+          <u>Project Overview</u> <br />
+          Key Features:
         </p>
-        <ul className="my-2">
-          <li className="flex items-center mx-2">
-            <span className="mr-1">
-              <FaCheckCircle></FaCheckCircle>
-            </span>{" "}
-            Seller can add property, Buyer can buy, rent or add to Wishlist,
-            payment with cards, Buyer can search property by Search Field.
+
+        <ol className="my-2 ">
+          <li className="list-decimal mx-2">
+            {" "}
+            <span className="font-semibold text-gray-700">
+              {" "}
+              User Authentication and Authorization:
+            </span>
+            <br />
+            Implemented a secure user authentication system with email
+            verification and custom hooks. Role-based access control for
+            different user types: Buyer, Seller, and Admin.
           </li>
-          <li className="flex items-center mx-2">
-            <span className="mr-1">
-              <FaCheckCircle></FaCheckCircle>
-            </span>{" "}
-            Different types of users (Buyer/Seller/Admin) based interactive
-            dashboard.
+          <li className="list-decimal mx-2">
+            {" "}
+            <span className="font-semibold text-gray-700">
+              {" "}
+              Interactive Dashboard:
+            </span>
+            <br />
+            Created a dynamic and intuitive dashboard tailored to the needs of
+            each user type. Admin dashboard for overseeing and managing both
+            sellers and buyers.
           </li>
-          <li className="flex items-center mx-2">
-            <span className="mr-1">
-              <FaCheckCircle></FaCheckCircle>
-            </span>{" "}
-            User type verification with custom hooks, user login & registration
-            system.
+          <li className="list-decimal mx-2">
+            {" "}
+            <span className="font-semibold text-gray-700">
+              {" "}
+              Property Management:
+            </span>
+            <br />
+            Sellers can add properties for sale or rent, providing details and
+            images. Buyers can browse, purchase, or rent properties and add them
+            to their wishlist.
           </li>
-          <li className="flex items-center mx-2">
-            <span className="mr-1">
-              <FaCheckCircle></FaCheckCircle>
-            </span>{" "}
-            Dashboard for Buyer/Seller/Admin
+          <li className="list-decimal mx-2">
+            {" "}
+            <span className="font-semibold text-gray-700">
+              Transaction Processing:
+            </span>
+            <br />
+            Integrated Stripe for secure payment transactions using credit
+            cards. Smooth and secure payment processing for property purchases
+            or rentals.
           </li>
-        </ul>
+          <li className="list-decimal mx-2">
+            {" "}
+            <span className="font-semibold text-gray-700">
+              {" "}
+              User-Friendly Interface:
+            </span>
+            <br />
+            Designed a user-friendly interface with a focus on a seamless user
+            experience. Implemented features like wishlist management, property
+            reviews, and Q&A.
+          </li>
+          <li className="list-decimal mx-2">
+            {" "}
+            <span className="font-semibold text-gray-700">
+              {" "}
+              Technology Stack:
+            </span>
+            <br />
+            <span className="font-semibold text-gray-700">Frontend:</span>{" "}
+            Developed using Next.js, React, and Tailwind CSS for a responsive
+            and modern UI. <br />
+            <span className="font-semibold text-gray-700">Backend:</span> Built
+            with Express.js and integrated with Firebase for real-time updates.{" "}
+            <br />
+            <span className="font-semibold text-gray-700">Database:</span>{" "}
+            MongoDB for efficient data storage and retrieval. <br />
+            <span className="font-semibold text-gray-700">
+              State Management:{" "}
+            </span>{" "}
+            Utilized TanStack Query for efficient state management. <br />
+            <span className="font-semibold text-gray-700">
+              {" "}
+              Payment Processing:
+            </span>
+            Integrated Stripe for secure and reliable payment transactions.{" "}
+            <br />
+            <span className="font-semibold text-gray-700">
+              {" "}
+              Additional Tools:
+            </span>
+            Flowbite for UI components, React Icons for iconography, SwiperJS
+            for image sliders, JWT for secure authentication, and React Hot
+            Toast for notification handling.
+          </li>
+        </ol>
         <p>
-          Technologies: Next.js, Express.js, Firebase, MongoDB, Tailwind CSS,
-          Flowbite, Stripe, TanStack Query, React Icons, React Hot Toast,
-          SwiperJS, Custom Hooks.
+          <span className="font-semibold">Technologies:</span> Next.js,
+          Express.js, Firebase, MongoDB, Tailwind CSS, Flowbite, Stripe,
+          TanStack Query, React Icons, React Hot Toast, SwiperJS, Custom Hooks.
         </p>
       </div>
       <span className="inline-flex -space-x-px overflow-hidden rounded-md border bg-white shadow-sm my-6">

@@ -35,7 +35,7 @@ const News71 = () => {
         )}
       </div>
       <div className="lg:max-w-3xl mx-2">
-        <h1 className="text-3xl my-4 text-white">News71</h1>
+        <h1 className="text-3xl my-4 text-gray-700 font-semibold">News71</h1>
         <p>Group Project | Role: Leader</p>
         <p>
           News71 is a News Portal Website. It serves as a centralized hub where

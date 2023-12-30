@@ -35,7 +35,7 @@ const MoboSell = () => {
         )}
       </div>
       <div className="lg:max-w-3xl mx-2">
-        <h1 className="text-3xl my-4 text-white">MoboSell</h1>
+        <h1 className="text-3xl my-4 text-gray-700 font-semibold">MoboSell</h1>
         <p>
           This is a 2nd hand Mobile Selling Website. Here seller can sell their
           phone and buyer can purchase phone.This website has stripe payment
