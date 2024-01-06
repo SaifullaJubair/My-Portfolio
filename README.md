@@ -89,7 +89,7 @@ Start the server
 
 ## Screenshots
 
-![Home Page](\https://i.ibb.co/DbKr3NG/Saifulla-Jubair-Portfolio.png)
+![Home Page](https://i.ibb.co/DbKr3NG/Saifulla-Jubair-Portfolio.png)
 
 ## Contact
 
