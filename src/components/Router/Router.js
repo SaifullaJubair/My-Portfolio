@@ -4,16 +4,16 @@ import About from "../About/About";
 import Blog from "../Blogs/Blog";
 import Contact from "../Contact/Contact";
 import Home from "../Home/Home";
-import Edmy from "../Projects/Project/Edmy";
-import MoboSell from "../Projects/Project/MoboSell";
-import TheKitchen from "../Projects/Project/TheKitchen";
-import Projects from "../Projects/Projects";
 // import UnKnownRoutes from "./UnKnownRoutes";
-import FareBd from "../Projects/Project/FareBd";
-import News71 from "../Projects/Project/News71";
-import ShovonsGallery from "../Projects/Project/Shovon'sGallery";
 import MyServices from "../MyServices/MyServices";
 import Skills from "../Skills/Skills";
+import Charity from "../Projects/ProjectDetails/Charity";
+import MoboSell from "../Projects/ProjectDetails/MoboSell";
+import ShovonsGallery from "../Projects/ProjectDetails/Shovon'sGallery";
+import FareBd from "../Projects/ProjectDetails/FareBd";
+import News71 from "../Projects/ProjectDetails/News71";
+import Projects from "../Projects/Projects";
+import LensBD from "../Projects/ProjectDetails/LensBD";
 
 export const router = createBrowserRouter([
   {
@@ -51,19 +51,27 @@ export const router = createBrowserRouter([
       },
       {
         path: "/projects/mobosell",
-        element: <MoboSell></MoboSell>,
+        element: <MoboSell />,
       },
       {
         path: "/projects/shovon's-gallery",
         element: <ShovonsGallery />,
       },
       {
+        path: "/projects/charity",
+        element: <Charity />,
+      },
+      {
+        path: "/projects/lens-bd",
+        element: <LensBD />,
+      },
+      {
         path: "/projects/farebd",
-        element: <FareBd></FareBd>,
+        element: <FareBd />,
       },
       {
         path: "/projects/news71",
-        element: <News71></News71>,
+        element: <News71 />,
       },
       // {
       //    path: "/projects/thekitchen",

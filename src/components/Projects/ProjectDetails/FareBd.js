@@ -30,6 +30,7 @@ const FareBd = () => {
             <img
               key={index}
               src={imageUrl}
+              className="cursor-pointer hover:shadow-md hover:scale-105 duration-200  border border-gray-200 h-full"
               alt=""
               onClick={() => openLightbox(imageUrl)}
             />
