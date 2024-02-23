@@ -53,7 +53,7 @@ const Skills = () => {
 
   return (
     <div className="bg-primary  p-8" id="skills">
-      <div className="max-w-[1320px] mb-10 mx-auto">
+      <div className="max-w-[1440px] mb-10 mx-auto">
         <div
           className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12"
           data-aos="zoom-in"

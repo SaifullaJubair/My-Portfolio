@@ -18,7 +18,7 @@ const Charity = () => {
     "https://i.ibb.co/LgFQLbC/Screenshot-2024-02-12-054447.png",
   ];
   return (
-    <div className="max-w-[1320px] mx-auto my-12">
+    <div className="max-w-[1440px] mx-auto my-12">
       <div>
         <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-3 mx-2">
           {images.map((imageUrl, index) => (

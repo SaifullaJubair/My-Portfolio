@@ -18,7 +18,7 @@ const MoboSell = () => {
     "https://i.ibb.co/t4M6rhD/Screenshot-2022-12-11-233347.jpg",
   ];
   return (
-    <div className="max-w-[1320px] mx-auto my-12">
+    <div className="max-w-[1440px] mx-auto my-12">
       <div>
         <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-3 mx-2">
           {images.map((imageUrl, index) => (

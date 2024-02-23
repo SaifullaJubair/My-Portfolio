@@ -11,7 +11,7 @@ import LensBDCard from "../ProjectCard/LensBDCard";
 const Projects = () => {
   return (
     <div id="projects" className="bg-accent ">
-      <div className=" max-w-[1320px] py-20 mx-auto">
+      <div className=" max-w-[1440px] py-20 mx-auto">
         <h1 className="text-center py-12 text-4xl font-semibold text-white">
           All Projects
         </h1>
@@ -19,7 +19,7 @@ const Projects = () => {
           {" "}
           Solo Projects:
         </h1>
-        <div className="grid gap-3 mx-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mb-10">
+        <div className="grid mx-8 lg:mx-4 grid-cols-1 md:grid-cols-2 sm:grid-cols-2 gap-4 lg:grid-cols-3  xl:grid-cols-4 mb-10">
           {/* Shovon Gallery */}
           <CharityCard />
           <ShovonGalleryCard />
@@ -30,7 +30,7 @@ const Projects = () => {
           {" "}
           Group Projects:
         </h1>
-        <div className="grid gap-3 mx-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mb-10">
+        <div className="grid gap-3 mx-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mb-10">
           {/* Shovon Gallery */}
 
           <FareBDCard />

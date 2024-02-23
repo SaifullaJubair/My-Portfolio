@@ -18,7 +18,7 @@ const News71 = () => {
     "https://i.ibb.co/WKz85nB/news71-Dashboard.jpg",
   ];
   return (
-    <div className="max-w-[1320px] mx-auto my-12">
+    <div className="max-w-[1440px] mx-auto my-12">
       <div className="mt-16">
         <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-3 mx-2">
           {images.map((imageUrl, index) => (

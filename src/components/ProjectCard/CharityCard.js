@@ -29,7 +29,7 @@ const CharityCard = () => {
         </p>
         <div className="card-actions mt-2 justify-end">
           <a
-            href="https://github.com/SaifullaJubair/charity-client-site"
+            href="https://charity-client.vercel.app/"
             target="_blank"
             className="btn btn-sm btn-primary  bg-gradient-to-r from-primary to-secondary"
             rel="noreferrer"

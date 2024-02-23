@@ -4,7 +4,7 @@ import { Link, NavLink } from "react-router-dom";
 const Header = () => {
   return (
     <div className="bg-primary sticky top-0 z-10">
-      <section className="  max-w-[1320px] mx-auto bg-secondary">
+      <section className="  max-w-[1440px] mx-auto bg-secondary">
         <div className="navbar ">
           <div className="navbar-start">
             <div className="dropdown">

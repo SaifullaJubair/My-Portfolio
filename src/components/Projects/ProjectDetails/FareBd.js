@@ -18,7 +18,7 @@ const FareBd = () => {
     "https://i.ibb.co/VThRghw/farebd-Dashboardejpg.jpg",
   ];
   return (
-    <div className="max-w-[1320px] mx-auto my-12">
+    <div className="max-w-[1440px] mx-auto my-12">
       <div>
         <h1 className="font-semibold text-3xl  my-8 text-gray-700">
           FareBD: (House Rental & Selling App)

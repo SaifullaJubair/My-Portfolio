@@ -20,7 +20,7 @@ const ShovonsGallery = () => {
     "https://i.ibb.co/L0hTx7r/dahboard-shovon-gallery.png",
   ];
   return (
-    <div className="max-w-[1320px] mx-auto my-12">
+    <div className="max-w-[1440px] mx-auto my-12">
       <div>
         <div>
           <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-3 mx-2">

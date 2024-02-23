@@ -8,7 +8,7 @@ import { MdEmail } from "react-icons/md";
 const Footer = () => {
   return (
     <div className="footers pt-6  bg-neutral  px-16">
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  max-w-[1320px] mx-auto text-white my-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  max-w-[1440px] mx-auto text-white my-8">
         {/* Address  */}
         <div
           className="flex flex-col md:flex-row md:items-center  gap-4 my-6"
